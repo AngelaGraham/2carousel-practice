@@ -1,9 +1,77 @@
+.navbar{
+    background-color:lightskyblue;
+}
+.nav-link{
+    font-family:Lobster Two; 
+}
+
+
+
+.carousel-caption{
+    font-family: 'Source Serif Pro', serif;
+}
+
 .bd-highlight{
     background-color:rgba(190, 213, 233, .45);
 }
-
+.parallax{ 
+    font-family: Libre Baskerville ;
+    background-image: url(https://images.pexels.com/photos/122429/leaf-nature-green-spring-122429.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height:400px;
+    margin-top: 0px;
+}
+.container-fluid-3{
+    padding-left:2%;
+    padding-right:2%;
+    font-family: Libre Baskerville ;
+    background-image: url(https://images.pexels.com/photos/122429/leaf-nature-green-spring-122429.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
 @media only screen and (min-width: 660px) {
 .carousel-inner {
     width: 100%;
     max-height:800px !important;
 }}
+
+
+
+.fab{
+    font-size: 30px;
+    height: auto;   
+}
+.footer-link{
+    padding:15px;
+}
+.footer{
+    background-color:lightgreen; 
+    /* background-image: url(https://cdn.pixabay.com/photo/2012/04/14/13/59/clouds-34027__340.png); */
+    background-size: cover;
+    height:120px;
+    width:100%;
+}
+
+.conatiner-fluid-4{
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/16/12/04/flowers-2755297_960_720.png);
+    width:100%;
+    
+}
+aside {
+     width: 20%;
+     
+    /* padding-right: 15px; */
+   
+  
+    
+   
+    font-family: LibreBaskerville;
+    font-size-adjust: 40px;
+    background-color: lightgreen;
+  }
+input{
+    padding-left:50px;
+
+}
+
+
+label{
+    padding:10px;
+}
